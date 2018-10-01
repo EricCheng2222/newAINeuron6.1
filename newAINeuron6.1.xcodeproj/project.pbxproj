@@ -25,6 +25,10 @@
 /* Begin PBXFileReference section */
 		0786802B215BA09F00205E46 /* newAINeuron6.1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = newAINeuron6.1; sourceTree = BUILT_PRODUCTS_DIR; };
 		0786802E215BA09F00205E46 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		07868035215BA0D200205E46 /* NEURALNET3.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NEURALNET3.hpp; sourceTree = "<group>"; };
+		07868036215BA0D200205E46 /* NODE3.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NODE3.hpp; sourceTree = "<group>"; };
+		07868037215BA0D200205E46 /* mnist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mnist.h; sourceTree = "<group>"; };
+		07868038215BA0D200205E46 /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = data; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,10 @@
 			isa = PBXGroup;
 			children = (
 				0786802E215BA09F00205E46 /* main.cpp */,
+				07868038215BA0D200205E46 /* data */,
+				07868037215BA0D200205E46 /* mnist.h */,
+				07868035215BA0D200205E46 /* NEURALNET3.hpp */,
+				07868036215BA0D200205E46 /* NODE3.hpp */,
 			);
 			path = newAINeuron6.1;
 			sourceTree = "<group>";
